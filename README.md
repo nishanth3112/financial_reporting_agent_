@@ -1,12 +1,13 @@
 # **Intelligent Financial Reporting Agent**
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
-![Microsoft Fabric](https://img.shields.io/badge/Microsoft-Fabric-purple)
-![Azure](https://img.shields.io/badge/Cloud-Azure-lightblue)
-![LangChain](https://img.shields.io/badge/LangChain-Framework-green)
-![Vanna AI](https://img.shields.io/badge/VannaAI-Text--to--SQL-orange)
-![RAG](https://img.shields.io/badge/Model-RAG--GPT4-red)
-![License](https://img.shields.io/badge/License-Educational-yellow)
+![Microsoft Fabric](https://img.shields.io/badge/Cloud-Microsoft%20Fabric-purple)
+![Azure](https://img.shields.io/badge/Platform-Azure-lightblue)
+![LangChain](https://img.shields.io/badge/Framework-LangChain-orange)
+![Vanna AI](https://img.shields.io/badge/Model-VannaAI--Text--to--SQL-green)
+![RAG](https://img.shields.io/badge/Pipeline-RAG--GPT4-red)
+![SQL Warehouse](https://img.shields.io/badge/Database-Fabric%20SQL%20Warehouse-yellow)
+![Dataflow Gen2](https://img.shields.io/badge/ETL-Dataflow%20Gen2-lightgrey)
 
 ---
 
@@ -217,9 +218,3 @@ python LangchainFabrics/LangChainFabrics.py
 
 ---
 
-## 🔗 References
-- [Microsoft Fabric Documentation](https://learn.microsoft.com/fabric)
-- [Azure Pricing Calculator](https://azure.microsoft.com/pricing)
-- [Vanna AI Text-to-SQL](https://vanna.ai/)
-- [LangChain Docs](https://python.langchain.com/)
-- [OpenAI Pricing](https://openai.com/pricing)
