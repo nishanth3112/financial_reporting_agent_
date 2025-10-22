@@ -26,14 +26,13 @@ The workflow involves:
 <img width="1338" height="794" alt="architecture_diagram" src="https://github.com/user-attachments/assets/96e02dd2-d95f-4509-80d1-9955c0e8cfc3" />
 
 
-- **Data Source Layer:** Ingests client portfolios, assets, and transaction data (real or synthetic).  
-- **Microsoft Fabric Lakehouse:** Acts as the unified storage and analytics layer for scalable, real-time financial data management.  
-- **Text-to-SQL Engine (Vanna AI + LangChain):** Converts natural-language questions into SQL queries and retrieves insights from the Lakehouse.  
-- **LangChain Orchestration Layer:** Adds contextual reasoning, memory, and validation to refine query results.  
-- **User Interface:** Streamlit dashboard or CLI for interactive data exploration and visualization.  
-- **Deployment Layer:** Supports cloud deployment on Microsoft Fabric or Azure environments for secure and scalable access.
+**Key Components**
+1. Microsoft Fabric Lakehouse (OneLake + Warehouse)  
+2. Dataflow Gen2 for data ingestion  
+3. Text-to-SQL via Vanna AI  
+4. LangChain for context memory & prompt reasoning  
+5. Azure integration for scalable data pipelines  
 
-Overall, the architecture demonstrates a **cloud-integrated, intelligent wealth management solution** — enabling seamless data querying, AI-driven analytics, and visualization in real time.
 
 ## 🏗️ Microsoft Fabric Lakehouse
 **Microsoft Fabric Lakehouse** acts as the cloud data foundation for storing and managing portfolio-related datasets.  
@@ -184,19 +183,6 @@ python RAGToSQL/InferenceRAG.py
 ```bash
 python LangchainFabrics/LangChainFabrics.py
 ```
-
----
-
-## 🧱 Architecture Diagram
-![Architecture Diagram](architecture_diagram.png)
-
-**Key Components**
-1. Microsoft Fabric Lakehouse (OneLake + Warehouse)  
-2. Dataflow Gen2 for data ingestion  
-3. Text-to-SQL via Vanna AI  
-4. LangChain for context memory & prompt reasoning  
-5. Azure integration for scalable data pipelines  
-
 ---
 
 ## 🧪 Project Takeaways
