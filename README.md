@@ -209,7 +209,7 @@ python LangchainFabrics/LangChainFabrics.py
 
 ---
 
-## 🧠 Learning Highlights
+## 🧠 Project Learnings
 - Microsoft Fabric data architecture design  
 - Azure OneLake warehouse management  
 - LangChain contextual reasoning pipeline  
